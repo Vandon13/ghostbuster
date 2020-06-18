@@ -185,4 +185,160 @@ body {
   padding: 40px 35px;
   border-right: 1px solid #D4D4D4;
 }
+
+.hero__row {
+  max-width: 1140px;
+  margin: 0 auto;
+  width: 96%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 80px 0;
+}
+
+.hero__trailer {
+  margin-right: 60px;
+}
+
+.hero__button {
+  background-color: transparent;
+  color: #5671F6;
+  border: 1px solid #D4D4D4;
+  border-top: none;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  padding: 25px 81px;
+  border-radius: 0px 0px 6px 6px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.hero__button-icon {
+  margin-right: 11px;
+}
+
+.hero__poster-img {
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+  width: 356.5px;
+}
+
+.hero__title {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 42px;
+  color: #363636;
+  margin-bottom: 16px;
+}
+
+.hero__subtitle {
+  display: block;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  color: #a5a5a5;
+  margin-bottom: 32px;
+}
+
+.hero__descr {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 150%;
+  color: #000000;
+  margin-bottom: 50px;
+}
+
+.hero__info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 50px;
+}
+
+.hero__info-left {
+  margin-right: 40px;
+}
+
+.hero__info-bold {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+  color: #363636;
+  margin-right: 13px;
+}
+
+.hero__info-span {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  color: #363636;
+}
+
+.hero__info-director, .hero__info-scenario, .hero__info-actor, .hero__info-budget, .hero__info-rental, .hero__info-premiere {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.hero__rating {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.hero__counter {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 33px;
+  color: #5671F6;
+  padding: 34px 24px;
+  border: 1px solid #5671F6;
+  border-radius: 10px;
+  margin-right: 28px;
+}
+
+.hero__viewers-rate {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 21px;
+  color: #363636;
+  margin: 7px 0;
+}
+
+.hero__average {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  color: #363636;
+  margin-bottom: 7px;
+}
+
+.hero__vote {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  color: #363636;
+}
+
+.actors__row {
+  border-top: 1px solid #D4D4D4;
+}
 /*# sourceMappingURL=style.css.map */
