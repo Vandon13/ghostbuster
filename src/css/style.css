@@ -209,7 +209,7 @@ body {
   font-weight: normal;
   font-size: 16px;
   line-height: 19px;
-  padding: 25px 81px;
+  padding: 24px 80px;
   border-radius: 0px 0px 6px 6px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -229,7 +229,7 @@ body {
 .hero__poster-img {
   border-top-left-radius: 6px;
   border-top-right-radius: 6px;
-  width: 356.5px;
+  width: 354px;
 }
 
 .hero__title {
@@ -239,6 +239,7 @@ body {
   line-height: 42px;
   color: #363636;
   margin-bottom: 16px;
+  margin-top: 0;
 }
 
 .hero__subtitle {
@@ -258,13 +259,14 @@ body {
   line-height: 150%;
   color: #000000;
   margin-bottom: 50px;
+  max-width: 514px;
 }
 
 .hero__info {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin-bottom: 50px;
+  margin-bottom: 37px;
 }
 
 .hero__info-left {
@@ -272,12 +274,14 @@ body {
 }
 
 .hero__info-bold {
+  width: 100px;
+  display: inline-block;
   font-style: normal;
-  font-weight: bold;
   font-size: 16px;
   line-height: 19px;
   color: #363636;
   margin-right: 13px;
+  vertical-align: top;
 }
 
 .hero__info-span {
@@ -289,15 +293,17 @@ body {
 }
 
 .hero__info-director, .hero__info-scenario, .hero__info-actor, .hero__info-budget, .hero__info-rental, .hero__info-premiere {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  display: block;
+  margin-bottom: 16px;
 }
 
 .hero__rating {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .hero__counter {
@@ -319,9 +325,11 @@ body {
   line-height: 21px;
   color: #363636;
   margin: 7px 0;
+  margin-top: 0;
 }
 
 .hero__average {
+  display: block;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -331,6 +339,7 @@ body {
 }
 
 .hero__vote {
+  display: block;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;

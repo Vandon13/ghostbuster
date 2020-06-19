@@ -72,7 +72,7 @@
 		font-weight: normal
 		font-size: 16px
 		line-height: 19px
-		padding: 25px 81px
+		padding: 24px 80px
 		border-radius: 0px 0px 6px 6px
 		display: flex
 		align-items: center
@@ -82,7 +82,7 @@
 	&__poster-img
 		border-top-left-radius: 6px
 		border-top-right-radius: 6px
-		width: 356.5px
+		width: 354px
 	&__title
 		font-style: normal
 		font-weight: 900
@@ -90,6 +90,7 @@
 		line-height: 42px
 		color: $text-color
 		margin-bottom: 16px
+		margin-top: 0
 	&__subtitle
 		display: block
 		font-style: normal
@@ -105,18 +106,21 @@
 		line-height: 150%
 		color: #000000
 		margin-bottom: 50px
+		max-width: 514px
 	&__info
 		display: flex
-		margin-bottom: 50px
+		margin-bottom: 37px
 		&-left
 			margin-right: 40px
 		&-bold
+			width: 100px
+			display: inline-block
 			font-style: normal
-			font-weight: bold
 			font-size: 16px
 			line-height: 19px
 			color: $text-color
 			margin-right: 13px
+			vertical-align: top
 		&-span
 			font-style: normal
 			font-weight: normal
@@ -124,9 +128,11 @@
 			line-height: 19px
 			color: $text-color
 		&-director, &-scenario, &-actor, &-budget, &-rental, &-premiere
-			display: flex
+			display: block
+			margin-bottom: 16px
 	&__rating
 		display: flex
+		align-items: center
 	&__counter
 		font-style: normal
 		font-weight: bold
@@ -144,7 +150,9 @@
 		line-height: 21px
 		color: $text-color
 		margin: 7px 0
+		margin-top: 0
 	&__average
+		display: block
 		font-style: normal
 		font-weight: normal
 		font-size: 16px
@@ -152,6 +160,7 @@
 		color: $text-color
 		margin-bottom: 7px
 	&__vote
+		display: block
 		font-style: normal
 		font-weight: normal
 		font-size: 16px
